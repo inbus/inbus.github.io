@@ -1,4 +1,4 @@
 #Oracle
 
-##Àu¤Æ
-[Oracle©Ê¯à½Õ¾ã«ä¦Ò¤è¦Vµ§°O](oracle/Oracle_Performance_Thinking.jpg)
+##å„ªåŒ–
+[Oracleæ€§èƒ½èª¿æ•´æ€è€ƒæ–¹å‘ç­†è¨˜](oracle/Oracle_Performance_Thinking.jpg)
