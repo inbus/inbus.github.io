@@ -5,3 +5,5 @@
 ##[Perl](perl/perl.html)
 
 ##[Oracle](oracle/oracle.html)
+
+##[python](python/python.html)
