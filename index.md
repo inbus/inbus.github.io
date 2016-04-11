@@ -6,4 +6,6 @@
 
 ##[Oracle](oracle/oracle.html)
 
-##[python](python/python.html)
+##[Python](python/python.html)
+
+##[Tools](tools/tools.html)
