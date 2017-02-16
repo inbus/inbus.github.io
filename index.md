@@ -9,3 +9,5 @@
 ##[Python](python/python.html)
 
 ##[Tools](tools/tools.html)
+
+##[R](R/R.html)
