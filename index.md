@@ -11,3 +11,5 @@
 ##[Tools](tools/tools.html)
 
 ##[R](R/R.html)
+
+##[JavaScript](javascript/javascript.html)
