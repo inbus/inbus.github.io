@@ -1,0 +1,58 @@
+FUBON_TODSDB =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.204.242.31)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = todsdb)
+    )
+  )
+FUBON_ODSDB =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.201.14.15)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = odsdb)
+    )
+  )
+
+TODSDB =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.204.242.31)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = todsdb)
+    )
+  )
+
+ODSDB =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.201.14.15)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = odsdb)
+    )
+  )
+
+FHCDWDBT =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.204.245.188)(PORT = 5211))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = FHCDWDBT)
+    )
+  )
+
+FHCDWDBP =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.201.9.91)(PORT = 5211))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = FHCDWDBP)
+    )
+  )
