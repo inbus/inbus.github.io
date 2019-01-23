@@ -1,15 +1,16 @@
-# Cruise Page
-<img src="https://lh4.googleusercontent.com/-MUSR3J9-ssw/Tg2KyIWoWPI/AAAAAAAACEA/1koqMr5LQB0/w360-h358-no/6531_1029260027873_1716525256_60592_3528966_n.jpg" alt="Cruise" height="42" width="42">
+# Cruise's NoteBook
+<img src="https://lh4.googleusercontent.com/-MUSR3J9-ssw/Tg2KyIWoWPI/AAAAAAAACEA/1koqMr5LQB0/w360-h358-no/6531_1029260027873_1716525256_60592_3528966_n.jpg" alt="Cruise" height="100" width="100">
 
+## Agenda
 
-## [Perl](perl/perl.html)
+1. [Perl](perl/perl.html)
 
-## [Oracle](oracle/oracle.html)
+2. [Oracle](oracle/oracle.html)
 
-## [Python](python/python.html)
+3. [Python](python/python.html)
 
-## [Tools](tools/tools.html)
+4. [Tools](tools/tools.html)
 
-## [R](R/R.html)
+5. [R](R/R.html)
 
-## [JavaScript](javascript/javascript.html)
+6. [JavaScript](javascript/javascript.html)
