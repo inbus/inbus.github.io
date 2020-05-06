@@ -1,0 +1,63 @@
+<h1 id="bash">Bash</h1>
+<h2 id="convert-a-string-to-lower-or-upper-case-in-bash">Convert a string to lower or upper case in Bash</h2>
+<blockquote>
+<h3 id="to-lowercase">To lowercase</h3>
+<pre><code>$ string=&quot;A FEW WORDS&quot;
+$ echo &quot;${string,}&quot;
+a FEW WORDS
+$ echo &quot;${string,,}&quot;
+a few words
+$ echo &quot;${string,,[AEIUO]}&quot;
+a FeW WoRDS
+
+$ string=&quot;A Few Words&quot;
+$ declare -l string
+$ string=$string; echo &quot;$string&quot;
+a few words</code></pre>
+<h3 id="to-uppercase">To uppercase</h3>
+<pre><code>$ string=&quot;a few words&quot;
+$ echo &quot;${string^}&quot;
+A few words
+$ echo &quot;${string^^}&quot;
+A FEW WORDS
+$ echo &quot;${string^^[aeiou]}&quot;
+A fEw wOrds
+
+$ string=&quot;A Few Words&quot;
+$ declare -u string
+$ string=$string; echo &quot;$string&quot;
+A FEW WORDS</code></pre>
+<h3 id="toggle-undocumented-but-optionally-configurable-at-compile-time">Toggle (undocumented, but optionally configurable at compile time)</h3>
+<pre><code>$ string=&quot;A Few Words&quot;
+$ echo &quot;${string~~}&quot;
+a fEW wORDS
+$ string=&quot;A FEW WORDS&quot;
+$ echo &quot;${string~}&quot;
+a FEW WORDS
+$ string=&quot;a few words&quot;
+$ echo &quot;${string~}&quot;
+A few words</code></pre>
+<h3 id="capitalize-undocumented-but-optionally-configurable-at-compile-time">Capitalize (undocumented, but optionally configurable at compile time)</h3>
+<pre><code>$ string=&quot;a few words&quot;
+$ declare -c string
+$ string=$string
+$ echo &quot;$string&quot;
+A few words</code></pre>
+<h3 id="title-case">Title case:</h3>
+<pre><code>$ string=&quot;a few words&quot;
+$ string=($string)
+$ string=&quot;${string[@]^}&quot;
+$ echo &quot;$string&quot;
+A Few Words
+
+$ declare -c string
+$ string=(a few words)
+$ echo &quot;${string[@]}&quot;
+A Few Words
+
+$ string=&quot;a FeW WOrdS&quot;
+$ string=${string,,}
+$ string=${string~}
+$ echo &quot;$string&quot;
+A few words</code></pre>
+</blockquote>

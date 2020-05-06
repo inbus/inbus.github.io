@@ -14,3 +14,5 @@
 5. [R](R/R.html)
 
 6. [JavaScript](javascript/javascript.html)
+
+7. [Bash](bash/bash.html)
