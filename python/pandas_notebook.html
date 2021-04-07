@@ -1,0 +1,7 @@
+<h1 id="pandas-筆記">Pandas 筆記</h1>
+<h2 id="將讀入的資料欄位a-轉換成日期型態">將讀入的資料欄位A 轉換成日期型態</h2>
+<p>df = pd.read_csv('z',sep='|',header=None,names=['a','b'],parse_dates=['a'])</p>
+<h2 id="與下一筆資料做計算">與下一筆資料做計算</h2>
+<p>df.a - df.a.shift(1)</p>
+<h2 id="日期計算後以分鐘產出">日期計算後以分鐘產出</h2>
+<p>(df.a - df.a.shift(1)).astype('timedelta64[m]')</p>
