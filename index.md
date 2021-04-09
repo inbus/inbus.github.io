@@ -1,5 +1,5 @@
 # Cruise's NoteBook
-<img src="https://lh4.googleusercontent.com/-MUSR3J9-ssw/Tg2KyIWoWPI/AAAAAAAACEA/1koqMr5LQB0/w360-h358-no/6531_1029260027873_1716525256_60592_3528966_n.jpg" alt="Cruise" height="100" width="100">
+<img src="https://drive.google.com/file/d/0B4HVB0_AT9qwT0hNSG1LemdNSVk/view?usp=drivesdk" alt="Cruise" height="100" width="100">
 
 ## Agenda
 
