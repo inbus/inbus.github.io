@@ -8,3 +8,6 @@
 
 
 ## [pandas 筆記](pandas_notebook.html)
+
+## 低程式碼資料科學工具
+1. [Data Analysis in Python - without becoming a programmer or googling syntax](https://bamboolib.8080labs.com/)
