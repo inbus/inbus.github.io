@@ -1,4 +1,5 @@
 #Cruise
+<<<<<<< HEAD
 <img src="1430251234.jpg" alt="Cruise" height="100" width="100">
 
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"\></script\>
